@@ -1,0 +1,50 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+#Temform{
+    background-color:  hsl(0, 0%, 100%);
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsl(0, 0%, 36%);
+}
+#title{
+    color: hsl(233, 82%, 45%);
+    margin-top: -5px ;
+}
+#teminput{
+    text-align: center;
+    width: 50%;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.795);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.inputlabel{
+    font-size: 1.5em;
+}
+#temButton{
+    background-color: hsl(0, 100%, 60%);
+    border: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+#temButton:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+#outputlabel{
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center ;
+    background-color: hsl(0, 0%, 100%);
+    width:200px;
+    height: 40px;
+}
