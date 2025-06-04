@@ -2,7 +2,13 @@ const input = document.getElementById("teminput");
 const outputlabel = document.getElementById("outputlabel");
 const toFah = document.getElementById("toFah");
 const toCel = document.getElementById("toCel");
+const form = document.getElementById("Temform");
 let temp;
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    convert();
+});
 
 
 function convert(){
